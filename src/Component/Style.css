@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bungee+Shade&family=Cedarville+Cursive&family=Lumanosimo&family=Pacifico&family=Tilt+Prism&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.theSiren{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(221, 83, 106);
+
+
+}
+
+.hamburger{
+    display: none;
+}
+
+
+
+.link{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.link a{
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px;
+}
+
+.navTop a{
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px;
+}
+.active{
+    /* color:#29335C ; */
+    color: rgb(221, 83, 106);
+}
+
+
+.the{
+    font-size: medium;
+    text-orientation:initial;
+    writing-mode:vertical-rl;
+}
+
+/* =======================================Top 3 Image================================ */
+
+.mainBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.FirstChild img{
+    border-radius: 10px;
+    height: 500px;
+    width: 900px;
+    background-position: center;
+    background-size: cover;
+}
+
+.SecondChild{
+    gap: 20px;
+}
+
+.SecondChildOne img{
+    border-radius: 10px;
+    height: 250px;
+    width: 400px;
+}
+
+.SecondChildTwo img{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* =================================LATEST BOX====================================== */
+
+
+.theLatest{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    min-height: 400px;
+    text-align: start;
+    gap: 25px;
+
+
+}
+
+.latestBox{
+width: 340px;   
+
+}
+
+.latestHeading{
+    text-align: start;
+    margin-left: 70px;
+    border-bottom: 3px solid tomato;
+    width: max-content;
+
+}
+
+/* ================================TOP STORIES========================== */
+
+.topStoriesParent{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 90px; */
+}
+
+.topstory{
+    text-align: start;
+    border-bottom: 3px solid tomato;
+    width: max-content;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.topStoryData{
+    display: flex;
+    height: 300px;
+    width: 550px;
+    text-align: start;
+    gap: 10px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.topStoryData img{
+    height: 250px;
+    width: 200px;
+}
+
+
+
+.topStoryData-down{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* text-wrap: wrap; */
+}
+
+
+/* ==========================TOP POST====================================== */
+.topPost{
+    border-bottom: 3px solid tomato;
+    width: max-content;
+    margin-left: 20px;
+}
+
+.topPostData{
+    display: flex;
+    width: 700px;
+    padding: 20px;
+    text-align: start;
+    gap: 20px;
+
+}
+
+.p{
+    text-align: end;
+    font-size: xx-large;
+    font-weight: bold;
+    color: gray;
+}
+
+.add{
+    width: 500px;
+    height: 67%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ====================================FOOTER================================== */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    bottom: 0;
+    /* border-radius: 20px; */
+    /* height: 250px; */
+    /* width: 100%; */
+    /* background-color: rgb(2, 199, 249); */
+    background-image: url(https://images.hdqwalls.com/wallpapers/mountains-landscape-night-snow-5k-p6.jpg);
+    background-position:bottom;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.fbox1{
+    /* height: 250px; */
+    width: 250px;
+    /* border: 2px solid black; */
+    font-size: large;
+    text-align: center;
+}
+
+.fbox1 a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.fbox1 p{
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.fbox2{
+    /* height: 250px; */
+    width: 250px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.fbox2 p{
+    padding: 15px;
+
+}
+
+
+.fbox3{
+    /* height: 250px; */
+    width: 250px;
+    /* border: 2px solid black; */
+}
+
+.fbox3 p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.fbox4{
+  /* height: 250px; */
+  width: 250px;
+}
+.fbox5{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding-top: 10px;
+}
+
+.flink a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.topstory Navlink{
+    text-decoration: none;
+}
+
+.parentTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.leftDetail{
+    height: 50%;
+    width: 200px;
+    cursor: pointer;
+    /* border: 2px solid black; */
+}
+
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    /* border: 2px solid black; */
+}
+
+
+
+.rightDetail{
+    height: 50%;
+    width: 200px;
+    /* border: 2px solid black; */
+
+}
+
+.detailHeadLike{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logoDetailOne{
+    color: rgb(218, 87, 109);
+    cursor: pointer;
+}
+
+.logoDetailTwo{
+    cursor: pointer;
+}
+
+.latestBoxDetail{
+    display: flex;
+    justify-content: space-around;
+}
+
+.latestBoxDetail a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.b img{
+    width: 340px;
+    height: 250px;
+}
+
+.DetailBox{
+    width: 340px;
+}
+
+
+@media(min-width:520px) and (max-width:1024px){
+
+
+    .mainBox{
+        flex-direction: column;
+    }
+
+   
+
+    
+
+    .FirstChild img{
+        width: 600px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .SecondChildOne img{
+        width: 600px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .SecondChildTwo img{
+        width: 600px;
+        margin: 10px 0px 10px 0px;
+    }
+
+
+
+    .latestBox{
+        width: 650px;
+    }
+
+    .latestBoxDetail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        margin-top: 20px;
+    }
+
+    .topStoriesParent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topStoryData{
+        width: 650px;
+    }
+
+    .latestHeading{
+        margin: 20px 0px 20px 80px;
+    }
+
+    .theLatest{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .add{
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .fbox1{
+        width: 250px;
+    }
+    .fbox2{
+        width: 250px;
+    }
+    .fbox3{
+        width: 220px;
+    }
+
+    .fbox4{
+        margin-left: 30px;
+        width: 650px;
+    }
+
+    .fbox5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .DetailBox{
+        width: 650px;
+    }
+
+    .DetailBox img{
+        width: 650px;
+    }
+    
+    
+}
+
+
+
+@media (max-width:500px){
+    
+.navTop{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+    .link{
+        display: none;
+        
+    }
+
+    .navTop a{
+        text-decoration: none;
+        color: black;
+    }
+    .active a{
+        /* color:#29335C ; */
+        color: rgb(221, 83, 106);
+    }
+
+
+
+    .hamburger{
+        display: block;
+        margin-left: 10.5rem;
+        
+    }
+
+    .theSiren{
+        justify-content: flex-start;
+    }
+
+
+
+    .mainBox{
+        flex-direction: column;
+        width: 340px;
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .FirstChild img{
+        width: 340px;
+        height:400px;
+    }
+
+    .SecondChildOne img{
+        height: 350px;
+        width: 330px;
+    }
+
+    .SecondChildTwo img{
+        height: 350px;
+        width: 330px;
+    }
+
+    .theLatest{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .latestBox{
+        padding-left: 20px;
+    }
+
+   
+
+    .latestHeading{
+        margin-left: 5px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .topStoriesParent{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .topstory{
+        margin-left: 5px;
+    }
+
+    .topStoryData{
+        width: 340px;
+        margin-left: 20px;
+        flex-direction: column;
+        height: 450px;
+        gap: 0px;
+        padding-top: 5px;
+    }
+
+    /* .topPostData img{
+        width:320px;
+    } */
+
+    .topPost{
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+
+    .topPostData{
+        width: 340px;
+        height: 350px;
+        gap: 5px;
+        padding: 5px;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .topStoryData img{
+        width: 330px;
+    }
+
+    .topPostData img{
+        width: 330px;
+    }
+
+    .add{
+        margin-top: 70px;
+        width: 340px;
+        height: 650px;
+        margin-left: 20px;
+    }
+
+    .latestBoxDetail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    .detail img{
+        width: 330px;
+    }
+
+    .detail{
+        padding-left: 20px;
+        width: 340px;
+        
+    }
+
+    .detail img{
+        width: 310px;
+    } 
+
+    .leftDetail{
+        display: none;
+    }
+    
+
+    .rightDetail{
+        display: none;
+    }
+
+    .detailHeadLike{
+        justify-content: center;
+    }
+
+    .b{
+        gap: 40px;
+    }
+
+    .footer{
+        margin: 20px 0px 0px 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+   
+
+    /* .logoDetailOne h1{
+        margin-left: 40px;
+    } */
+
+}
+
+
+
+/* 
+@media (max-width:480px){
+ 
+    .App{
+        width: 340px;
+        overflow-x: hidden;
+      }
+    
+      #root{
+        width: 340px;
+      }
+
+    .mainBox{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+
+    .FirstChild img{
+        width: 310px;
+        height: 330px;
+    }
+
+    .SecondChild{
+    }
+
+    .SecondChildOne img{
+        padding-top: 20px;
+        width: 310px;
+        height: 300px;
+
+    }
+
+    .SecondChildTwo img{
+        padding-top: 20px;
+        width: 310px;
+        height: 300px;
+
+    }
+
+    .latestHeading{
+        margin-left: 20px;
+        width: 280px;
+    }
+   
+    .theLatest{
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .latestBox img{
+        width: 310px;
+    }
+
+    .latestBox p{
+        width: 320px;
+    }
+
+    .latestBox{
+        width: 320px;
+    }
+    .topStoriesParent{
+        width: 340px;
+    }
+
+    .topstory{
+        margin-left: 20px;
+        width: 300px;
+    }
+
+    .topStoryData{
+        margin-left: 5px;
+        height: 400px;
+        width: 340px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .topStoryData img{
+        width: 310px;
+    }
+
+    .topStoryData p{
+        width: 320px;
+    }
+
+    .topStoriesParent{
+        flex-direction: column;
+    }
+    
+    .topStoryData-down{
+        gap: 0px;
+        width: 340px;
+    }
+   
+
+    .topPostData{
+        width: 340px;
+        flex-direction: column;
+
+    }
+
+    .topPostData img{
+        width: 310px;
+    }
+
+    .topPostData p{
+        width: 320px;
+    }
+
+    .add{
+        height: 600px;
+        width: 310px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .footer{
+        width: 310px;
+        padding-top: 20px;
+        margin-left: 20px;
+
+    }
+
+    .fbox4{
+        width: 340px;
+    }
+
+    .parentTop{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 340px;
+        margin-left: 20px;
+    }
+
+
+    .latestBoxDetail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detail{
+        width: 340px;
+        
+    }
+
+    .detail img{
+        width: 310px;
+    } 
+} */
